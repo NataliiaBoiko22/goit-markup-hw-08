@@ -1,0 +1,26 @@
+//состоит из импортов, своих стилей нет
+@import "utils/vars.scss";
+@import "utils/visually-hidden.scss";
+
+@import "base/container.scss";
+@import "base/common.scss";
+
+@import "components/logo.scss";
+@import "components/modal-btn.scss";
+@import "components/social-links-list.scss";
+@import "components/main-title.scss";
+@import "components/backdrop.scss";
+@import "components/modal-window.scss";
+@import "components/contact-form.scss";
+
+@import "layout/header.scss";
+@import "layout/hero.scss";
+@import "layout/features.scss";
+@import "layout/images-row.scss";
+@import "layout/team.scss";
+@import "layout/klients.scss";
+@import "layout/footer.scss";
+
+@import "layout/portfolio-main.scss";
+@import "layout/portfolio-btns-row.scss";
+@import "layout/portfolio-cards.scss";

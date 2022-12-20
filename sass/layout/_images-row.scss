@@ -1,0 +1,38 @@
+@media screen and (max-width: 767px) {
+  .mobile-hidden {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-hidden {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-hidden {
+    display: block;
+  }
+  .images-boxes-row {
+    display: flex;
+    gap: 30px;
+  }
+  .images-boxes-row > li {
+    position: relative;
+  }
+  .ourWorkDeskr {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+}

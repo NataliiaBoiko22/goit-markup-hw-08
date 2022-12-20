@@ -1,0 +1,76 @@
+.main-info {
+  display: flex;
+  text-align: center;
+  color: var(--white-color);
+  background-size: cover;
+  margin: 0 auto;
+  padding: 118px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .main-info {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Img-mob.jpg);
+    background-color: var(--background-h-f);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpl),
+    (min-resolution: 2dppx) {
+    .main-info {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/Img-mob-2x.jpg);
+      background-color: var(--background-h-f);
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-info {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Img-tab.jpg);
+    background-color: var(--background-h-f);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpl),
+    (min-resolution: 2dppx) {
+    .main-info {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/Img-tab-2x.jpg);
+      background-color: var(--background-h-f);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-info {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Img.jpg);
+    background-color: var(--background-h-f);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpl),
+    (min-resolution: 2dppx) {
+    .main-info {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/Img-2x.jpg);
+      background-color: var(--background-h-f);
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.main_portfolio {
+  padding: 60px 0;
+  background-color: var(--white-color);
+}
+.main_portfolio-position {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+  .main_portfolio {
+    padding: 94px 0;
+  }
+}
