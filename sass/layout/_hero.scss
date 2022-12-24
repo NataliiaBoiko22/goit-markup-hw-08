@@ -6,8 +6,32 @@
   margin: 0 auto;
   padding: 118px 0;
 }
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
+  .main-info {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Img-mob.jpg);
+    background-color: var(--background-h-f);
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpl),
+    (min-resolution: 2dppx) {
+    .main-info {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/Img-mob-2x.jpg);
+      background-color: var(--background-h-f);
+    }
+  }
+}
+@media screen and (min-width: 480px) {
   .main-info {
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
@@ -60,6 +84,8 @@
       ),
       url(../images/Img.jpg);
     background-color: var(--background-h-f);
+    padding: 200px 0;
+    max-width: 1600px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpl),
@@ -69,7 +95,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/Img-2x.jpg);
+        url(../images/Img2x.jpg);
       background-color: var(--background-h-f);
     }
   }

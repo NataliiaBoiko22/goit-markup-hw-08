@@ -141,14 +141,41 @@
           </ul>
 
           <ul class="card_table portfolio_section">
-            <li class="portfolio-card">
+            <li class="portfolio-card portfolio-card-media">
               <div class="portfolio-card__img">
                 <picture>
                   <source
-                    srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x" />
+                    srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="./images/img1-t.jpg 1x, ./images/img1-t-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
                   <source
                     srcset="./images/img1-m.jpg 1x, ./images/img1-m-2x.jpg 2x"
-                    media="(max-width: 767px)" />
+                    media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./images/img1-webp.webp    1x,
+                      ./images/img1-webp-2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp" />
+                  <source
+                    srcset="
+                      ./images/img1-webp-t.webp    1x,
+                      ./images/img1-webp-t-2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp" />
+
+                  <source
+                    srcset="
+                      ./images/img1-webp-m.webp    1x,
+                      ./images/img1-webp-m-2x.webp 2x
+                    "
+                    media="(min-width: 480px)"
+                    type="image/webp" />
 
                   <img src="./images/img1.jpg" alt="card1" />
                 </picture>
@@ -158,20 +185,46 @@
                   вичерпні відомості про компанію чи приватну особу.
                 </p>
               </div>
-              <div class="portfolio-card__about">
+              <div class="portfolio-card__about portfolio-card__about-media">
                 <h2>Технокряк</h2>
                 <p>Веб-сайт</p>
               </div>
             </li>
-            <li class="portfolio-card">
+            <li class="portfolio-card portfolio-card-media">
               <div class="portfolio-card__img">
                 <picture>
                   <source
-                    srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x" />
+                    srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="./images/img2-t.jpg 1x, ./images/img2-t-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
                   <source
                     srcset="./images/img2-m.jpg 1x, ./images/img2-m-2x.jpg 2x"
-                    media="(max-width: 767px)" />
+                    media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./images/img2-webp.webp    1x,
+                      ./images/img2-webp-2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp" />
+                  <source
+                    srcset="
+                      ./images/img2-webp-t.webp    1x,
+                      ./images/img2-webp-t-2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp" />
 
+                  <source
+                    srcset="
+                      ./images/img2-webp-m.webp   1x,
+                      ./images/img2webp-m-2x.webp 2x
+                    "
+                    media="(min-width: 480px)"
+                    type="image/webp" />
                   <img src="./images/img2.jpg" alt="card2" />
                 </picture>
                 <p class="portfolio-card__description">
@@ -180,7 +233,7 @@
                   вичерпні відомості про компанію чи приватну особу.
                 </p>
               </div>
-              <div class="portfolio-card__about">
+              <div class="portfolio-card__about portfolio-card__about-media">
                 <h2>Постер New Orlean vs Golden Star</h2>
                 <p>Дизайн</p>
               </div>
@@ -189,11 +242,37 @@
               <div class="portfolio-card__img">
                 <picture>
                   <source
-                    srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x" />
+                    srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="./images/img3-t.jpg 1x, ./images/img3-t-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
                   <source
                     srcset="./images/img3-m.jpg 1x, ./images/img3-m-2x.jpg 2x"
-                    media="(max-width: 767px)" />
+                    media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./images/img3-webp.webp    1x,
+                      ./images/img3-webp-2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp" />
+                  <source
+                    srcset="
+                      ./images/img3-webp-t.webp    1x,
+                      ./images/img3-webp-t-2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp" />
 
+                  <source
+                    srcset="
+                      ./images/img3-webp-m.webp    1x,
+                      ./images/img3-webp-m-2x.webp 2x
+                    "
+                    media="(min-width: 480px)"
+                    type="image/webp" />
                   <img src="./images/img3.jpg" alt="card3" />
                 </picture>
                 <p class="portfolio-card__description">
@@ -211,10 +290,37 @@
               <div class="portfolio-card__img">
                 <picture>
                   <source
-                    srcset="./images/img4.jpg 1x, ./images/img4-2x.jpg 2x" />
+                    srcset="./images/img4.jpg 1x, ./images/img4-2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="./images/img4-t.jpg 1x, ./images/img4-t-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
                   <source
                     srcset="./images/img4-m.jpg 1x, ./images/img4-m-2x.jpg 2x"
-                    media="(max-width: 767px)" />
+                    media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./images/img4-webp.webp    1x,
+                      ./images/img4-webp-2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp" />
+                  <source
+                    srcset="
+                      ./images/img4-webp-t.webp    1x,
+                      ./images/img4-webp-t-2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp" />
+
+                  <source
+                    srcset="
+                      ./images/img4-webp-m.webp    1x,
+                      ./images/img4-webp-m-2x.webp 2x
+                    "
+                    media="(min-width: 480px)"
+                    type="image/webp" />
 
                   <img src="./images/img4.jpg" alt="card4" />
                 </picture>
@@ -234,10 +340,37 @@
               <div class="portfolio-card__img">
                 <picture>
                   <source
-                    srcset="./images/img5.jpg 1x, ./images/img5-2x.jpg 2x" />
+                    srcset="./images/img5.jpg 1x, ./images/img5-2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="./images/img5-t.jpg 1x, ./images/img5-t-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
                   <source
                     srcset="./images/img5-m.jpg 1x, ./images/img5-m-2x.jpg 2x"
-                    media="(max-width: 767px)" />
+                    media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./images/img5-webp.webp    1x,
+                      ./images/img5-webp-2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp" />
+                  <source
+                    srcset="
+                      ./images/img5-webp-t.webp    1x,
+                      ./images/img5-webp-t-2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp" />
+
+                  <source
+                    srcset="
+                      ./images/img5-webp-m.webp    1x,
+                      ./images/img5-webp-m-2x.webp 2x
+                    "
+                    media="(min-width: 480px)"
+                    type="image/webp" />
 
                   <img src="./images/img5.jpg" alt="card5" />
                 </picture>
@@ -257,11 +390,37 @@
               <div class="portfolio-card__img">
                 <picture>
                   <source
-                    srcset="./images/img6.jpg 1x, ./images/img6-2x.jpg 2x" />
+                    srcset="./images/img6.jpg 1x, ./images/img6-2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="./images/img6-t.jpg 1x, ./images/img6-t-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
                   <source
                     srcset="./images/img6-m.jpg 1x, ./images/img6-m-2x.jpg 2x"
-                    media="(max-width: 767px)" />
+                    media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./images/img6-webp.webp    1x,
+                      ./images/img6-webp-2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp" />
+                  <source
+                    srcset="
+                      ./images/img6-webp-t.webp    1x,
+                      ./images/img6-webp-t-2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp" />
 
+                  <source
+                    srcset="
+                      ./images/img6-webp-m.webp    1x,
+                      ./images/img6-webp-m-2x.webp 2x
+                    "
+                    media="(min-width: 480px)"
+                    type="image/webp" />
                   <img src="./images/img6.jpg" alt="card6" />
                 </picture>
 
@@ -280,11 +439,37 @@
               <div class="portfolio-card__img">
                 <picture>
                   <source
-                    srcset="./images/img7.jpg 1x, ./images/img7-2x.jpg 2x" />
+                    srcset="./images/img7.jpg 1x, ./images/img7-2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="./images/img7-t.jpg 1x, ./images/img7-t-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
                   <source
                     srcset="./images/img7-m.jpg 1x, ./images/img7-m-2x.jpg 2x"
-                    media="(max-width: 767px)" />
+                    media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./images/img7-webp.webp    1x,
+                      ./images/img7-webp-2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp" />
+                  <source
+                    srcset="
+                      ./images/img7-webp-t.webp    1x,
+                      ./images/img7-webp-t-2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp" />
 
+                  <source
+                    srcset="
+                      ./images/img7-webp-m.webp    1x,
+                      ./images/img7-webp-m-2x.webp 2x
+                    "
+                    media="(min-width: 480px)"
+                    type="image/webp" />
                   <img src="./images/img7.jpg" alt="card7" />
                 </picture>
 
@@ -303,11 +488,37 @@
               <div class="portfolio-card__img">
                 <picture>
                   <source
-                    srcset="./images/img8.jpg 1x, ./images/img8-2x.jpg 2x" />
+                    srcset="./images/img8.jpg 1x, ./images/img8-2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="./images/img8-t.jpg 1x, ./images/img8-t-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
                   <source
                     srcset="./images/img8-m.jpg 1x, ./images/img8-m-2x.jpg 2x"
-                    media="(max-width: 767px)" />
+                    media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./images/img8-webp.webp    1x,
+                      ./images/img8-webp-2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp" />
+                  <source
+                    srcset="
+                      ./images/img8-webp-t.webp    1x,
+                      ./images/img8-webp-t-2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp" />
 
+                  <source
+                    srcset="
+                      ./images/img8-webp-m.webp    1x,
+                      ./images/img8-webp-m-2x.webp 2x
+                    "
+                    media="(min-width: 480px)"
+                    type="image/webp" />
                   <img src="./images/img8.jpg" alt="card8" />
                 </picture>
 
@@ -326,10 +537,39 @@
               <div class="portfolio-card__img">
                 <picture>
                   <source
-                    srcset="./images/img9.jpg 1x, ./images/img9-2x.jpg 2x" />
+                    srcset="./images/img9.jpg 1x, ./images/img9-2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+                  <source
+                    srcset="./images/img9-t.jpg 1x, ./images/img9-t-2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
+                  <source
+                    srcset="./images/img9-t.jpg 1x, ./images/img9-t-2x.jpg 2x"
+                    media="(min-width: 768px)" />
                   <source
                     srcset="./images/img9-m.jpg 1x, ./images/img9-m-2x.jpg 2x"
-                    media="(max-width: 767px)" />
+                    media="(min-width: 480px)" />
+                  <source
+                    srcset="
+                      ./images/img9-webp.webp    1x,
+                      ./images/img9-webp-2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp" />
+                  <source
+                    srcset="
+                      ./images/img9-webp-t.webp    1x,
+                      ./images/img9-webp-t-2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/webp" />
+                  <source
+                    srcset="
+                      ./images/img9-webp-m.webp    1x,
+                      ./images/img9-webp-m-2x.webp 2x
+                    "
+                    media="(min-width: 480px)"
+                    type="image/webp" />
 
                   <img src="./images/img9.jpg" alt="card9" />
                 </picture>
