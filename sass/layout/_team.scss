@@ -27,26 +27,25 @@
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white-color);
 }
-@media screen and (min-width: 320px) {
-  .team-card-row__card {
-    width: 320px;
-  }
-  .team-card-row {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    list-style: none;
-    margin-top: 30px;
-  }
-  .picture-img > img {
-    width: 320px;
-    height: 320px;
-  }
-  .about-member {
-    padding: 20px 16px;
-  }
+.team-card-row__card {
+  width: 320px;
 }
+.team-card-row {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style: none;
+  margin-top: 30px;
+}
+.picture-img > img {
+  width: 320px;
+  height: 320px;
+}
+.about-member {
+  padding: 20px 16px;
+}
+
 @media screen and (min-width: 480px) {
   .team-card-row__card {
     width: 450px;

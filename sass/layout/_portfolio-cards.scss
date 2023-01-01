@@ -57,19 +57,18 @@
   }
 }
 
-@media screen and (min-width: 320px) {
-  .card_table {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    list-style: none;
-  }
-  picture > img {
-    max-width: 320px;
-    width: 320px;
-    height: 270px;
-  }
+.card_table {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style: none;
 }
+picture > img {
+  max-width: 320px;
+  width: 320px;
+  height: 270px;
+}
+
 @media screen and (min-width: 480px) {
   .card_table {
     display: flex;
@@ -96,18 +95,15 @@
     height: 294px;
   }
   .portfolio-card {
-    height: 404px;
     display: flex;
     flex-direction: column;
   }
   .portfolio-card__about {
-    height: 110px;
+    padding: 20px 24px;
   }
-  .portfolio-card-media {
-    height: 440px;
-  }
+
   .portfolio-card__about-media {
-    height: 146px;
+    padding-bottom: 56px;
   }
 }
 @media screen and (min-width: 1200px) {
