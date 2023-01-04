@@ -13,8 +13,10 @@
   margin-bottom: 4px;
   text-align: left;
 }
-.portfolio-card > p {
+.portfolio-card p {
   font-size: 16px;
+  font-weight: 400;
+
   line-height: 1.88;
   color: var(--light-grey-color);
 }
@@ -98,12 +100,9 @@ picture > img {
     display: flex;
     flex-direction: column;
   }
-  .portfolio-card__about {
-    padding: 20px 24px;
-  }
 
   .portfolio-card__about-media {
-    padding-bottom: 56px;
+    flex-grow: 1;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -122,8 +121,5 @@ picture > img {
     height: 404px;
     display: flex;
     flex-direction: column;
-  }
-  .portfolio-card__about {
-    height: 110px;
   }
 }
