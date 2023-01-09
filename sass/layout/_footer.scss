@@ -46,6 +46,9 @@
     color: var(--blue-color);
   }
 }
+.address-block__item-link__white {
+  color: var(--white-color);
+}
 
 .our-links p,
 .footer-form p {
@@ -143,6 +146,9 @@
       color: var(--blue-color);
     }
   }
+  .address-block__item-link__white {
+    color: var(--white-color);
+  }
 
   .our-links p,
   .footer-form p {
@@ -218,6 +224,7 @@
     margin: 0 auto;
   }
   .address-block {
+    color: white;
     display: flex;
     flex-direction: column;
     margin: 28px auto 0;
@@ -240,6 +247,9 @@
     &:focus {
       color: var(--blue-color);
     }
+  }
+  .address-block__item-link__white {
+    color: var(--white-color);
   }
 
   .our-links {
@@ -338,6 +348,9 @@
   .our-contacts {
     margin: 0;
     align-items: flex-start;
+  }
+  .address-block__item-link__white {
+    color: var(--white-color);
   }
 
   .our-links p,

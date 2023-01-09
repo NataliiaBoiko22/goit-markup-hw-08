@@ -13,10 +13,10 @@
   margin-bottom: 4px;
   text-align: left;
 }
-.portfolio-card p {
+.portfolio-card__about p {
   font-size: 16px;
   font-weight: 400;
-
+  color: var(--white-color);
   line-height: 1.88;
   color: var(--light-grey-color);
 }
@@ -27,12 +27,12 @@
   align-items: center;
   padding-left: 24px;
   padding-right: 24px;
-  color: var(--white-color);
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
   background-color: rgba(33, 150, 243, 0.9);
+  color: var(--white-color);
   width: 100%;
   height: 294px;
   top: 0;
