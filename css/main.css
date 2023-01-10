@@ -394,7 +394,7 @@ h2 {
   content: "";
 }
 .contact-form__checkbox:checked + .contact-form__checkbox-label::before {
-  background-image: url("/images/vector1.svg");
+  background-image: url("../images/vector1.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 11px;
@@ -524,7 +524,7 @@ h2 {
     content: "";
   }
   .contact-form__checkbox:checked + .contact-form__checkbox-label::before {
-    background-image: url("/images/vector1.svg");
+    background-image: url("../images/vector1.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 11px;

@@ -104,7 +104,7 @@
     cursor: pointer;
     content: "";
     .contact-form__checkbox:checked + & {
-      background-image: url("/images/vector1.svg");
+      background-image: url("../images/vector1.svg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: 11px;
@@ -238,7 +238,7 @@
       cursor: pointer;
       content: "";
       .contact-form__checkbox:checked + & {
-        background-image: url("/images/vector1.svg");
+        background-image: url("../images/vector1.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 11px;
